@@ -23,7 +23,7 @@ public class takesc {
 			try {
 				Files.copy(src,new File("./"+d+System.currentTimeMillis()+" "+name+".png"));
 			} catch (IOException e) {
-			
+			System.out.println("a");
 			}}
 
 	public static void main(String[] args) throws InterruptedException
